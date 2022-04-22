@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "books": [
+        {
+          "id": 1,
+          "title": "Pride and Prejudice",
+          "price": 200,
+          "pageCount": 100,
+          "imageUrl": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781499806250/pride-and-prejudice-9781499806250_hr.jpg",
+          "description": "Battel between pride and prejudice",
+          "author": "Jane Austin"
+        },
+        {
+          "id": 2,
+          "title": "Palace of Illusions",
+          "price": 400,
+          "pageCount": 90,
+          "imageUrl": "https://5.imimg.com/data5/CE/RM/MY-28838716/the-palace-of-illusions-500x500.png",
+          "description": "About Draupadi and padavas",
+          "author": "Chitra Banerjee"
+        },
+        {
+          "title": "Guess How much I Love You",
+          "price": "900",
+          "pageCount": "99",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/714a8ebZrvL.jpg",
+          "description": "My fav book of decade",
+          "author": "James Marsherrttt",
+          "id": 86
+        },
+        {
+          "title": "Leila",
+          "price": "500",
+          "pageCount": "400",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51chqlvKDaL.jpg",
+          "description": "Suspense Story",
+          "author": "Prayaag Akbar",
+          "id": 37
+        }
+      ],
+      "id": 1,
+      "name": "Asmiriti kumari",
+      "email": "asmiritik@gmail.com",
+      "password": "1234",
+      "description": "I love writing and publishing books  ",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+    },
+    {
+      "email": "Asmiriti_Kumari@epam.com",
+      "password": "1234",
+      "id": 27,
+      "imageUrl": "https://i.pinimg.com/originals/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg",
+      "books": [
+        {
+          "title": "My book",
+          "price": "456",
+          "pageCount": "87",
+          "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81lZ-9E4F-S.jpg",
+          "description": "i am in love with this project",
+          "author": "Sam Murbay",
+          "id": 24
+        }
+      ],
+      "name": "Asmiriti kumari",
+      "description": "I like travelling and writing"
+    }
+  ]
+}

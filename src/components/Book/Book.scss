@@ -1,0 +1,56 @@
+@import '../../Theme.scss';
+
+.book-card {
+  width: 250px;
+  position: relative;
+
+  .book-image {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 250px;
+    background-size: cover;
+  }
+  .content {
+    padding: 20px;
+    height: 125px;
+    position: relative;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .description {
+    font-size: 15px;
+    color: $grey_color;
+    padding-top: 2px;
+  }
+  .author {
+    color: $light_pink;
+    font-size: 12px;
+  }
+  .price-section {
+    display: flex;
+    color: $orange_color;
+  }
+  .icon {
+    position: relative;
+    top: 9px;
+    font-size: 12px;
+  }
+  .price {
+    padding-top: 7px;
+    font-size: 20px;
+  }
+  .icon-section {
+    display: flex;
+    position: absolute;
+    right: 0;
+  }
+  .page-count {
+    font-size: 12px;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+  }
+}

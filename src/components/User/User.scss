@@ -1,0 +1,144 @@
+@import '../../Theme.scss';
+
+.user-section {
+  width: 720px;
+  height: 65vh;
+  margin: 40px auto;
+  background: linear-gradient(to bottom, $purple_color 30%, $white-color 70%);
+
+  .content {
+    display: flex;
+  }
+  .user-details {
+    padding: 30px 10px;
+  }
+
+  .description {
+    font-size: 25px;
+    color: $light_grey_color;
+  }
+
+  .email {
+    color: $light_grey_color;
+  }
+
+  h1 {
+    color: $white-color;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .profile {
+    width: 30%;
+    padding: 40px;
+  }
+
+  .err {
+    padding: 200px 0;
+    text-align: center;
+  }
+
+  .loader {
+    padding: 200px 0;
+    text-align: center;
+  }
+
+  ul {
+    margin: 10px 0;
+  }
+  li {
+    list-style: none;
+    background-color: $light_grey_color;
+    padding: 5px 5px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px;
+    color: $purple_color;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  .section {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+
+    button {
+      font: inherit;
+      border: 1px solid $purple_color;
+      background: $purple_color;
+      color: $white-color;
+      padding: 0.25rem 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 20px 0;
+      a {
+        color: $white-color;
+        text-decoration: none;
+      }
+    }
+    .icon-section {
+      display: flex;
+      width: 40px;
+      padding: 25px 10px;
+      .edit {
+        margin: 0 2px 0 0;
+      }
+      .delete {
+        margin: 0 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .user-section {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 769px) and (min-width: 480px) {
+  .user-section {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 481px) and (min-width: 100px) {
+  .user-section {
+    width: 300px;
+    height: 78vh;
+    h1 {
+      font-size: 30px;
+      color: $white-color;
+    }
+    .description {
+      font-size: 20px;
+      color: $black_color;
+    }
+    .email {
+      color: $black_color;
+    }
+  }
+  .profile {
+    width: 100%;
+    background-size: cover;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 30px;
+    color: $light_pink;
+  }
+
+  .section {
+    display: inline;
+  }
+}

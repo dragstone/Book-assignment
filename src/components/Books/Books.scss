@@ -1,0 +1,32 @@
+@import '../../Theme.scss';
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px 0 0;
+  .btn {
+    font: inherit;
+    border: 1px solid $purple_color;
+    background: $purple_color;
+    color: $white-color;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 100px) {
+  .book {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../Theme.scss';
+.book-modal-section {
+  .input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px soild $light_grey_color;
+    outline: none;
+    background: transparent;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    outline: none;
+    border: 0;
+    background: $purple_color;
+    transition: 0.5s;
+  }
+}

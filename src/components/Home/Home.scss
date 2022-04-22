@@ -1,0 +1,113 @@
+@import '../../Theme.scss';
+
+.home-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 4, 20, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url('../../assets/library.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+
+  .header {
+    color: $white-color;
+    font-family: 'Neucha', cursive;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    h1 {
+      padding: 8px 14px;
+    }
+  }
+
+  .form-section {
+    width: 380px;
+    height: 430px;
+    position: relative;
+    margin: 1% auto;
+    background: $white-color;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  .button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px rgba(1, 4, 20, 0.52);
+    border-radius: 30px;
+    color: $white-color;
+  }
+
+  .toggle-button {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: $grey_color;
+  }
+
+  #btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: $purple_color;
+    border-radius: 30px;
+    color: $white-color;
+    transition: 0.5s;
+  }
+
+  .input-group {
+    top: 160px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px soild $light_grey_color;
+    outline: none;
+    background: transparent;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    outline: none;
+    border: 0;
+    background: $purple_color;
+    border-radius: 30px;
+    transition: 0.5s;
+    color: $white-color;
+  }
+
+  #login {
+    left: 50px;
+  }
+
+  #register {
+    left: 450px;
+  }
+
+  .error {
+    color: $red_color;
+    font-size: 14px;
+    margin: 9px 0;
+  }
+}

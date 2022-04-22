@@ -1,0 +1,11 @@
+@import '../../Theme.scss';
+
+.header-section {
+  background: $purple_color;
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  img {
+    padding: 5px;
+  }
+}
